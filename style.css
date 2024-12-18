@@ -1,0 +1,64 @@
+h3{
+    font: 800 22px sans-serif;
+    color: rgb(68, 67, 67);
+}
+.need{
+    font: bold 15px sans-serif;
+    color: rgb(68, 67, 67);
+    cursor: pointer;
+}
+.need:hover{
+    color: rgb(19, 18, 18);
+}
+.first{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 122px;  
+}
+input{
+    width: 380px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgb(197, 192, 192);
+    border-radius: 5px;
+}
+textarea{
+    width: 780px;
+    height: 140px;
+    padding: 10px;
+    margin-left: 120px; 
+    border: 1px solid rgb(197, 192, 192);
+}
+button input{
+    width: 500px;
+    height: 30px;
+    font: 14px sans-serif;
+    border: none;  
+    padding:3px 0px 0px 10px;
+    background-color: gray;
+    margin: 4px 0px 0px 100px;
+    color: rgb(236, 230, 230);
+    opacity: 0.1;
+    border-bottom: 1px solid rgb(240, 236, 236);
+}
+button{
+    width: 190px;
+    height: 45px;
+    cursor: pointer;
+    transition: all 1s;
+    color: white;
+    font: bold 15px sans-serif;
+    border-radius: 8px;
+    margin: 20px 0px 0px 20px;
+    padding: 0px 0px 0px 5px;
+    background-color: black;
+    border: 1px solid white;
+}
+button:hover{
+    color: rgb(27, 27, 27);
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
